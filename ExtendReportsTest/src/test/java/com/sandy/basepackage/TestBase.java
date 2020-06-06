@@ -1,4 +1,4 @@
-package basePackage;
+package com.sandy.basepackage;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -6,7 +6,7 @@ import org.apache.logging.log4j.Logger;
 
 public class TestBase {
 	
-	public static final Logger logger = LogManager.getLogger(TestBase.class);
+	public static  Logger logger = LogManager.getLogger(TestBase.class);
 	
 
 }

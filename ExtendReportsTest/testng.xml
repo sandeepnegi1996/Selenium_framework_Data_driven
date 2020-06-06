@@ -3,14 +3,16 @@
 <suite name="Suite">
 
 	<listeners>
-		<listener class-name="org.uncommons.reportng.HTMLReporter" />
-		<listener
-			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<!-- <listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" /> -->
+		
+		<listener class-name="com.sandy.listeners.TestListeners" />
 	</listeners>
 
 	<test thread-count="5" name="Test">
 		<classes>
-			<class name="testcases.LoginTest" />
+			<class name="com.sandy.testcases.LoginTest" />
+			<class name="com.sandy.testcases.SignupTest" />
 		</classes>
 
 	</test> <!-- Test -->

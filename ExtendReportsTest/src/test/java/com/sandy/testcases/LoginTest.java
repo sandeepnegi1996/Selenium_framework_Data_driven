@@ -1,8 +1,8 @@
-package testcases;
+package com.sandy.testcases;
 
 import org.testng.annotations.Test;
 
-import basePackage.TestBase;
+import com.sandy.basepackage.TestBase;
 
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
@@ -16,8 +16,7 @@ public class LoginTest extends TestBase {
 	  logger.info("this is information message");
 	  logger.error("this is the error log message");
 	  
-	  
-	
+
   }
   @BeforeTest
   public void beforeTest() {
